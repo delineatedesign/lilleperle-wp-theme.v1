@@ -18,6 +18,7 @@ var gulp = require('gulp'),
     size = require('gulp-size');
     //uglify = require('gulp-uglify');
 
+    var themeDir = '/';
 
     gulp.task('scss', function() {
         var onError = function(err) {
@@ -35,12 +36,12 @@ var gulp = require('gulp'),
         .pipe(sass())
         .pipe(size({ gzip: true, showFiles: true }))
         .pipe(prefix())
-        .pipe(rename('style-new.css'))
+        .pipe(rename('style-skin.css'))
         .pipe(gulp.dest('css/'))
         .pipe(cssmin())
         .pipe(size({ gzip: true, showFiles: true }))
         .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest('css/'))
+        .pipe(gulp.dest('./'))
     });
 
     gulp.task('scss-lint', function() {

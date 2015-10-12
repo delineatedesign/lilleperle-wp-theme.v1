@@ -115,6 +115,7 @@ add_action( 'widgets_init', 'shiny_widgets_init' );
  */
 function shiny_scripts() {
 	wp_enqueue_style( 'shiny-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'shiny-style-skin', get_template_directory_uri() . '/style-skin.min.css' );
 
 	wp_enqueue_script( 'shiny-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
