@@ -8,9 +8,9 @@ if (count($terms) > 0) { ?>
   <?php  foreach ($terms as $term) { ?>
 
 
-		--><li class="o-layout__item  u-1-6">
+		--><li class="c-woo-categories-list-item  o-layout__item  u-1-6">
 				<div>
-					<img src="<?php echo get_site_url(); ?>/img/icons/LP_rings.jpg" alt="Black &amp; white image of a ring" style="display: block;  height: auto; margin: 0 auto; width: 48px;">
+					<img src="<?php echo get_site_url(); ?>/img/icons/LP_rings.jpg" alt="">
 					<h2 class="m-0"><?php echo $term->name; ?></h2>
 				</div>
 		</li><!--

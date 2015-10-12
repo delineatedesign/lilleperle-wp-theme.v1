@@ -80,12 +80,11 @@
 </div>
 </div>
 
-	<header id="masthead" class="site-header" role="banner" style="
-	border-bottom: 1px solid #111;">
+	<header id="masthead" class="site-header  c-page-head" role="banner">
 
     <div style="margin: 0 auto; padding: 48px 0 0; max-width: 960px;">
 
-      <h1 class="m-0"><img src="http://localhost:8888/lilleperle.co.uk/img/lilleperle-logo.jpg" alt="Lille Perle black &amp; white logo" style="display: block; width:40%; height: auto; margin: 0 auto; padding-bottom: 24px;"></h1>
+      <h1 class="m-0"><img class="brand-logo" src="<?php echo esc_url( home_url( '/' ) ); ?>img/lilleperle-logo.jpg" alt="Lille Perle black &amp; white logo"></h1>
 
 
 		<!--<div class="site-branding">

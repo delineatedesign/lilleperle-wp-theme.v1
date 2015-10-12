@@ -2,7 +2,17 @@
 //  #WooCommerce CATEGORY LIST
 //\*----------------------------------*/
 
-.c-woo-categories-list h2 {
-	margin-top: 0;
+.c-woo-categories-list {
+	position: relative;
+}
+
+.c-woo-categories-list-item img {
+  display: block;
+	margin: 0 auto;
+	width: 48px;
+	height: auto;
+}
+
+.c-woo-categories-list-item h2 {
 	margin-bottom: 24px;
 }

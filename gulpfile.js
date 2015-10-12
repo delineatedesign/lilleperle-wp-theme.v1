@@ -1,24 +1,20 @@
-var gulp = require('gulp'),
-    //browserSync = require('browser-sync'),
-    //reload = browserSync.reload,
-    //cache = require('gulp-cached'),
-    //concat = require('gulp-concat'),
-    cssmin = require('gulp-minify-css'),
-    //imagemin = require('gulp-imagemin'),
-    //pngquant = require('imagemin-pngquant'),
-    prefix = require('gulp-autoprefixer'),
-    //jshint = require('gulp-jshint'),
-    //merge = require('merge-stream'),
-    //minifyHTML = require('gulp-minify-html'),
-    notify = require('gulp-notify'),
-    plumber = require('gulp-plumber'),
-    rename = require('gulp-rename'),
-    sass = require('gulp-sass'),
-    scsslint = require('gulp-scss-lint'),
-    size = require('gulp-size');
-    //uglify = require('gulp-uglify');
+// -----------------------------------------------------------------------------
+// Dependencies
+// -----------------------------------------------------------------------------
 
-    var themeDir = '/';
+
+var gulp = require('gulp');
+
+var sass = require('gulp-sass');
+var prefix = require('gulp-autoprefixer');
+var cssmin = require('gulp-minify-css');
+var notify = require('gulp-notify');
+var plumber = require('gulp-plumber');
+var rename = require('gulp-rename');
+var scsslint = require('gulp-scss-lint');
+var size = require('gulp-size');
+
+    var themeDir = './';
 
     gulp.task('scss', function() {
         var onError = function(err) {
@@ -37,11 +33,11 @@ var gulp = require('gulp'),
         .pipe(size({ gzip: true, showFiles: true }))
         .pipe(prefix())
         .pipe(rename('style-skin.css'))
-        .pipe(gulp.dest('./'))
+        .pipe(gulp.dest(themeDir))
         .pipe(cssmin())
         .pipe(size({ gzip: true, showFiles: true }))
         .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest('./'))
+        .pipe(gulp.dest(themeDir))
     });
 
     gulp.task('scss-lint', function() {

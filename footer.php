@@ -13,13 +13,13 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo" style="border-top: 1px solid;">
+	<footer id="colophon" class="site-footer  c-page-foot" role="contentinfo">
 
 		  <div style=" margin: 0 auto; max-width: 960px;">
 		    <ul class="o-layout  u-aligncenter">
 		      <li class="o-layout__item  u-1-6">
 		        <div>
-		          <h3 class="u-uppercase" style="margin: 0 0 12px 0;">Customer Service</h3>
+		          <h3 class="u-uppercase">Customer Service</h3>
 		          <ul style="margin: 0; list-style: none; font-size: .875em;">
 		            <li><a href="">Contact</a></li>
 		            <li><a href="">My Account</a></li>
@@ -32,7 +32,7 @@
 
 		   --><li class="o-layout__item  u-1-6">
 		        <div>
-		          <h3 class="u-uppercase" style="margin: 0 0 12px 0;">Information</h3>
+		          <h3 class="u-uppercase">Information</h3>
 		          <ul style="margin: 0; list-style: none; font-size: .875em;">
 		            <li><a href="">Delivery</a></li>
 		            <li><a href="">Terms &amp; Conditions</a></li>
@@ -44,7 +44,7 @@
 
 		   --><li class="o-layout__item  u-1-6">
 		        <div>
-		          <h3 class="u-uppercase" style="margin: 0 0 12px 0;">About Us</h3>
+		          <h3 class="u-uppercase">About Us</h3>
 		          <ul style="margin: 0; list-style: none; font-size: .875em;">
 		            <li><a href="">Lille Perle Jewellery</a></li>
 		            <li><a href="">On the High Street</a></li>
@@ -55,7 +55,7 @@
 
 		   --><li class="o-layout__item  u-1-6">
 		        <div>
-		          <h3 class="u-uppercase" style="margin: 0 0 12px 0;">Brands</h3>
+		          <h3 class="u-uppercase">Brands</h3>
 		          <ul style="margin: 0; list-style: none; font-size: .875em;">
 		            <li><a href="">Gina Stewart Cox</a></li>
 		            <li><a href="">Dinny Hall</a></li>
@@ -68,7 +68,7 @@
 		      </li><!--
 		   --><li class="o-layout__item  u-1-6">
 		        <div>
-		          <h3 class="u-uppercase" style="margin: 0 0 12px 0;">Categories</h3>
+		          <h3 class="u-uppercase">Categories</h3>
 		          <ul style="margin: 0; list-style: none; font-size: .875em;">
 		            <li><a href="">Rings</a></li>
 		            <li><a href="">Earrings</a></li>
@@ -81,7 +81,7 @@
 		        </li><!--
 		   --><li class="o-layout__item  u-1-6">
 		        <div>
-		          <h3 class="u-uppercase" style="margin: 0 0 12px 0;">Follow Us</h3>
+		          <h3 class="u-uppercase">Follow Us</h3>
 		          <ul style="margin: 0; list-style: none; font-size: .875em;">
 		            <li><a href="">Facebook</a></li>
 		            <li><a href="">Instagram</a></li>

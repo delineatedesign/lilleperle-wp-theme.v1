@@ -3,7 +3,7 @@
 //\*----------------------------------*/
 
 // High-level base settings.
-$base-font-size:        18px !default;
+$base-font-size:        16px !default;
 $base-line-height:      24px !default;
 $base-text-color:       #222 !default;
 $base-background-color: #fff !default;
@@ -18,5 +18,3 @@ $base-spacing-unit-tiny:  round($base-spacing-unit / 4);
 $base-spacing-unit-small: round($base-spacing-unit / 2);
 $base-spacing-unit-large: round($base-spacing-unit * 2);
 $base-spacing-unit-huge:  round($base-spacing-unit * 4);
-
-$spacing-unit__layout : 16.6666667% ;
