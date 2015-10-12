@@ -14,7 +14,7 @@
 
 get_header(); ?>
 
-<div style="background: #fff url('http://lionessegem.com/wp-content/uploads/2015/06/lionesse-madonna-beauty-inspirations-oversized-earrings.jpg') no-repeat center center; background-size: cover; height: 500px; animation: soren 4s ease;"></div>
+<div style="background: #fff url('<?php echo get_site_url(); ?>/img/frontpage-image_1.jpg') no-repeat center center; background-size: cover; height: 500px; animation: soren 4s ease;"></div>
 
 
 	<div id="primary" class="content-area">
@@ -26,13 +26,13 @@ get_header(); ?>
 
 			<!--include lines-->
 			<div style="margin: 0 auto; max-width: 960px;">
-        <?php include_once('woocommerce/template-parts/content-woo-brands.php') ?>
+        <?php //include_once('woocommerce/template-parts/content-woo-brands.php') ?>
 			</div>
 
 
 			<!--include cats-->
 			<div style="margin: 0 auto; max-width: 960px;">
-			  <?php include_once('woocommerce/template-parts/content-woo-categories.php') ?>
+			  <?php //include_once('woocommerce/template-parts/content-woo-categories.php') ?>
 			</div>
 
 		</main><!-- #main -->

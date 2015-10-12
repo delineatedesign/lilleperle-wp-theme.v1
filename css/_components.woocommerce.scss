@@ -1,0 +1,40 @@
+.woocommerce .woocommerce-breadcrumb {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    color: #777;
+}
+
+/* hide brand name added by brand plugin */
+.yith-wcbr-brands {
+    display: none;
+}
+
+/*@media screen and (min-width: 840px) {*/
+@media screen and (min-width: 640px) {
+/* gain control of image and summary wrappers */
+.woocommerce #content div.product div.images,
+.woocommerce div.product div.images,
+.woocommerce-page #content div.product div.images,
+.woocommerce-page div.product div.images {
+    width: 50%;
+		float: left;
+}
+.woocommerce #content div.product div.summary,
+.woocommerce div.product div.summary,
+.woocommerce-page #content div.product div.summary,
+.woocommerce-page div.product div.summary {
+    width: 50%;
+		float: right;
+}
+}
+
+/* single product image and info (summary) */
+.woocommerce div.product div.images,
+.woocommerce div.product div.summary {
+    margin: 0;
+}
+.woocommerce div.product form.cart,
+.woocommerce div.product p.cart {
+    margin: 0;
+}

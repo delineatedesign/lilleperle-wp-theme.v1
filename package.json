@@ -1,0 +1,22 @@
+{
+  "name": "lille-perle",
+  "version": "0.1.0",
+  "description": "de.lin.e.ate project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/delineatedesign/lilleperle-wp-theme.v1.git"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-cached": "^1.1.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-scss-lint": "^0.3.6",
+    "gulp-size": "^2.0.0"
+  }
+}
