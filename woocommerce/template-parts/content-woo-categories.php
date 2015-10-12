@@ -4,7 +4,7 @@ $terms = get_terms('product_cat', $args);
 
 if (count($terms) > 0) { ?>
 	<div class="lille-categories">
-    <ul class="o-layout  u-aligncenter  u-uppercase"><!--
+    <ul class="c-woo-categories-list  o-layout  u-aligncenter  u-uppercase"><!--
   <?php  foreach ($terms as $term) { ?>
 
 

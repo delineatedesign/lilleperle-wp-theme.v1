@@ -37,7 +37,7 @@ var gulp = require('gulp'),
         .pipe(size({ gzip: true, showFiles: true }))
         .pipe(prefix())
         .pipe(rename('style-skin.css'))
-        .pipe(gulp.dest('css/'))
+        .pipe(gulp.dest('./'))
         .pipe(cssmin())
         .pipe(size({ gzip: true, showFiles: true }))
         .pipe(rename({ suffix: '.min' }))

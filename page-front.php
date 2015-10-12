@@ -26,13 +26,13 @@ get_header(); ?>
 
 			<!--include lines-->
 			<div style="margin: 0 auto; max-width: 960px;">
-        <?php //include_once('woocommerce/template-parts/content-woo-brands.php') ?>
+        <?php include_once('woocommerce/template-parts/content-woo-brands.php') ?>
 			</div>
 
 
 			<!--include cats-->
 			<div style="margin: 0 auto; max-width: 960px;">
-			  <?php //include_once('woocommerce/template-parts/content-woo-categories.php') ?>
+			  <?php include_once('woocommerce/template-parts/content-woo-categories.php') ?>
 			</div>
 
 		</main><!-- #main -->

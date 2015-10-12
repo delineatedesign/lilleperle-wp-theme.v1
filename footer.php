@@ -98,5 +98,11 @@
 
 <?php wp_footer(); ?>
 
+<script>
+//$(window).load(function() {
+//		$(".se-pre-con").fadeOut("slow");;
+//	});
+</script>
+
 </body>
 </html>

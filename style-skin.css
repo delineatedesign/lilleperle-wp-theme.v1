@@ -1,15 +1,64 @@
-/* Begin Skin */
 body {
   font-family: "Proxima-Nova",sans-serif;
   line-height: 1.4;
-  background-color: #ffffff;
+  background-color: #fff;
   color: #222; }
+
+a,
+a:visited {
+  color: #222;
+  text-decoration: none; }
+
+a:hover,
+a:active,
+a:focus {
+  color: #222;
+  text-decoration: underline; }
 
 .brand-logo {
   margin: 0 auto;
   display: block;
   max-width: 100%;
   height: auto; }
+
+.woocommerce .woocommerce-breadcrumb {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  color: #777; }
+
+/* hide brand name added by brand plugin */
+.yith-wcbr-brands {
+  display: none; }
+
+/*@media screen and (min-width: 840px) {*/
+@media screen and (min-width: 640px) {
+  /* gain control of image and summary wrappers */
+  .woocommerce #content div.product div.images,
+  .woocommerce div.product div.images,
+  .woocommerce-page #content div.product div.images,
+  .woocommerce-page div.product div.images {
+    width: 50%;
+    float: left; }
+  .woocommerce #content div.product div.summary,
+  .woocommerce div.product div.summary,
+  .woocommerce-page #content div.product div.summary,
+  .woocommerce-page div.product div.summary {
+    width: 50%;
+    float: right; } }
+
+/* single product image and info (summary) */
+.woocommerce div.product div.images,
+.woocommerce div.product div.summary {
+  margin: 0; }
+
+.woocommerce div.product form.cart,
+.woocommerce div.product p.cart {
+  margin: 0; }
+
+.c-woo-categories-list h2 {
+  margin-top: 0;
+  margin-bottom: 24px; }
 
 h1, h2, h3, h4 {
   font-family: "bebas-neue",sans-serif;
@@ -24,17 +73,6 @@ address {
 ul {
   margin: 0;
   padding: 0; }
-
-a,
-a:visited {
-  color: #222;
-  text-decoration: none; }
-
-a:hover,
-a:active,
-a:focus {
-  color: #222;
-  text-decoration: underline; }
 
 .o-layout {
   position: relative;
@@ -75,16 +113,11 @@ a:focus {
 }
 
 */
-.c-woo-categories-list h2 {
-  margin-top: 0;
-  margin-bottom: 24px; }
-
 @-webkit-keyframes soren {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
-
 @keyframes soren {
   0% {
     opacity: 0; }
@@ -221,39 +254,4 @@ a:focus {
 
 /* u-1/1 u-1/2@md */
 .m-0 {
-  margin: 0; }
-
-.woocommerce .woocommerce-breadcrumb {
-  margin: 0;
-  padding: 0;
-  font-size: 1em;
-  color: #777; }
-
-/* hide brand name added by brand plugin */
-.yith-wcbr-brands {
-  display: none; }
-
-/*@media screen and (min-width: 840px) {*/
-@media screen and (min-width: 640px) {
-  /* gain control of image and summary wrappers */
-  .woocommerce #content div.product div.images,
-  .woocommerce div.product div.images,
-  .woocommerce-page #content div.product div.images,
-  .woocommerce-page div.product div.images {
-    width: 50%;
-    float: left; }
-  .woocommerce #content div.product div.summary,
-  .woocommerce div.product div.summary,
-  .woocommerce-page #content div.product div.summary,
-  .woocommerce-page div.product div.summary {
-    width: 50%;
-    float: right; } }
-
-/* single product image and info (summary) */
-.woocommerce div.product div.images,
-.woocommerce div.product div.summary {
-  margin: 0; }
-
-.woocommerce div.product form.cart,
-.woocommerce div.product p.cart {
   margin: 0; }
